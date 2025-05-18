@@ -1,0 +1,27 @@
+FROM alpine:edge
+RUN apk update && apk add \
+	asciidoctor \
+	build-base \
+	ccache \
+	clang \
+	fontconfig-dev \
+	freetype-dev \
+	gettext-dev \
+	git \
+	libevent-dev \
+	libmpack-dev \
+	libpng-dev \
+	librsvg-dev \
+	libx11-dev \
+	libxcursor-dev \
+	libxext-dev \
+	libxext-dev \
+	libxft-dev \
+	libxkbcommon-dev \
+	libxpm-dev \
+	libxrandr-dev \
+	libxt-dev \
+	lld \
+	meson \
+	perl \
+	readline-dev
